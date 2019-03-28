@@ -13,6 +13,7 @@ use App\Repositories\Setting\SettingInterface;
 
 class ResendReminderEmailCommand extends Command
 {
+
     protected $surveyRepository;
     protected $inviteRepository;
     protected $settingRepository;
